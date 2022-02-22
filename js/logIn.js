@@ -14,7 +14,6 @@ let userCollectItem = document.querySelector('.userCollectItem')
 let iLike = document.querySelector('.iLike')
 let logOut = document.querySelector('.logOut')
 let song = document.querySelector('.song')
-document.body.style.zoom = 0.67;
 //登录小方块的交互
 //右上角退出×
 quite.addEventListener('mouseenter', function () {
