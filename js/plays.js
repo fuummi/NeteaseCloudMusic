@@ -12,7 +12,6 @@ let running = document.querySelector('.running')
 let comments = document.querySelector('.comments')
 let comment = document.querySelector('.comment')
 let windowWidth = document.body.clientWidth
-document.body.style.zoom = 0.67;
 document.querySelector('.play').style.width = '' + windowWidth + 'px'
 
 for (let i = 0; i < 5; i++) {//底部播放控制按钮覆盖变红
