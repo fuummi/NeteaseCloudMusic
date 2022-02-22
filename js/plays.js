@@ -279,6 +279,11 @@ fetch('http://localhost:3000/lyric?id=' + localStorage.songId + '')
     .then(res => { return res.json() }).then(data => {
         lyArr = data.lrc.lyric.split('\n')
         tlyric = data.tlyric.lyric.split('\n')
+        for (let i = 0; i < lyArr.length; i++) {
+            if (lyArr[i].slice(11) == '') {
+                lyArr.splice(i, 1)
+            }
+        }
         tlyric.forEach((currentValue) => {
             tlyric1.push(currentValue.slice(1, 10))
         })
