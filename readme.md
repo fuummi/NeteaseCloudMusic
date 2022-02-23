@@ -1,8 +1,5 @@
 # 红岩网校寒假考核前端单人项目：网易云音乐
-## 1.运行项目的方法
-    本项目所用后端接口来自http://redrock.udday.cn:2022/，需要先安装
-    安装后在文件夹NeteaseCloudMusicApi下打开cmd,输入命令 node app.js 启动后端服务。
-    即可用Live Server插件进入index.html。
+
 ## 2.项目功能介绍
 ### 2.1 主页
         登录：
